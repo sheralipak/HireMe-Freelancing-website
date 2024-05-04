@@ -1,0 +1,77 @@
+*{
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  background-image: url("image1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 2%;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	  margin-top: 2%;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+
+}
+.row{
+	display:flex ;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+	margin-left: 5%;
+}
+h1{
+	color: white;
+	font-size: 50px;
+}
+.card{
+	width: 200px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1{
+	background-image: url("card1.jpg");
+}
+.card2{
+	background-image: url("card2.webp");
+}
+.card3{
+	background-image: url("card3.jpg");
+}
+.card4{
+	background-image: url("seo.webp");
+}
+h5{
+	color: white;
+}
+.card:hover{
+	transform: translateY(-15px);
+}

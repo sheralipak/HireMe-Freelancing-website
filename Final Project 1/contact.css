@@ -1,0 +1,22 @@
+.con{
+  padding: 20px;
+  text-align: left;
+  background-color: darkslateblue;
+  color: white;
+}
+*, *:before, *:after {
+}
+.map1{
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.maps1{
+padding: 0 16px;
+}
+.maps1::after, .row::after {
+  display: table;
+}
+.home{
+  margin-top: 15%;
+}

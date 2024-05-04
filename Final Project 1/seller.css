@@ -1,0 +1,62 @@
+*{
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  background-image: url("image1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 2%;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 2%;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+.row{
+  display:flex ;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+  margin-left: 5%;
+}
+h2{
+  color: white;
+  font-size: 50px;
+  margin-left: 2px;  
+}
+.card{
+  width: 1500px;
+  height: 400px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(seller1.jpg);
+  margin-bottom: 150px;
+  margin-right: 50px;
+}
+.earn{
+  margin-top: 0%;
+  font-family: serif;
+}

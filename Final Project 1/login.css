@@ -1,0 +1,77 @@
+*{
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  background-image: url("image1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+
+.login{  
+        width: 382px;  
+        height: 150px;
+        overflow: hidden;  
+        margin-top: 42%;
+        margin-left: 25%;
+        padding: 80px;  
+
+        border-radius: 15px ;  
+          
+}  
+ 
+label{  
+    color: white;  
+    font-size: 17px; 
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+.logs{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-color: white; 
+    cursor: pointer;  
+} 
+.logs a{
+	text-decoration: none;
+} 
+.logs:hover{
+	background-color: lightskyblue;
+}
+.home{
+	margin-top: 50%;
+	margin-right: -10%;
+	font-family: cursive;
+}
+.home a{
+	text-decoration: none;
+}
+.home:hover{
+	background-color: lightslategray;
+	padding: 5px;
+	border-radius: 20px; 
+}

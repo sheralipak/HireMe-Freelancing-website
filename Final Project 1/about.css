@@ -1,0 +1,49 @@
+body {
+  font-family:sans-serif;
+  margin: 0;
+}
+*, *:before, *:after {
+}
+
+.column {
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.about{
+  padding: 40px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: whitesmoke;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: lightskyblue;
+}
